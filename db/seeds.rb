@@ -3,6 +3,8 @@ Ingredient.destroy_all
 
 puts "Creating ingredients"
 
-50.times { Ingredient.create!(name: Faker::Food.ingredient) }
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "ice")
+Ingredient.create(name: "mint leaves")
 
 puts "finished"
