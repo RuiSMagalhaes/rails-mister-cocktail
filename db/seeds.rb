@@ -1,5 +1,7 @@
-puts "Cleaning every ingredients"
+puts "Cleaning every db"
+Dose.destroy_all
 Ingredient.destroy_all
+Cocktail.destroy_all
 
 puts "Creating ingredients"
 
